@@ -12,12 +12,10 @@ Still needs optimization, like option to enter multiple stocks.
 
 import yfinance as yf
 import pandas as pd
-import numpy as np
 import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 import plotly.graph_objs as go
-from matplotlib import pyplot as plt
 
 # === Helper functions for indicators ===
 def calculate_indicators(df):
