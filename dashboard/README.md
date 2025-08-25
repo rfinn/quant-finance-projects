@@ -34,4 +34,3 @@ import plotly.graph_objs as go
 
 # TODO
 * check statistics
-* add option to compare multiple stocks
